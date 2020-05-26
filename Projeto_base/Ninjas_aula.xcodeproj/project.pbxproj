@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0F5ECA9A2476BB8A006B2E3A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5ECA992476BB8A006B2E3A /* Extensions.swift */; };
+		0F7BD0CC247D0D6100D56E34 /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 0F7BD0CB247D0D6100D56E34 /* Sounds */; };
+		0F7BD0CF247D101900D56E34 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7BD0CE247D101900D56E34 /* GameOverScene.swift */; };
 		B169166A22565B4E001F129D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169166922565B4E001F129D /* AppDelegate.swift */; };
 		B169167022565B4E001F129D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169166F22565B4E001F129D /* GameScene.swift */; };
 		B169167222565B4E001F129D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B169167122565B4E001F129D /* GameViewController.swift */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		0F5ECA992476BB8A006B2E3A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0F7BD0CB247D0D6100D56E34 /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Sounds; path = ../../Sounds; sourceTree = "<group>"; };
+		0F7BD0CE247D101900D56E34 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		B169166622565B4D001F129D /* Ninjas_aula.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ninjas_aula.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B169166922565B4E001F129D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B169166F22565B4E001F129D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -58,9 +62,11 @@
 		B169166822565B4D001F129D /* Ninjas_aula */ = {
 			isa = PBXGroup;
 			children = (
+				0F7BD0CB247D0D6100D56E34 /* Sounds */,
 				B169166922565B4E001F129D /* AppDelegate.swift */,
 				0F5ECA992476BB8A006B2E3A /* Extensions.swift */,
 				B169166F22565B4E001F129D /* GameScene.swift */,
+				0F7BD0CE247D101900D56E34 /* GameOverScene.swift */,
 				B169167122565B4E001F129D /* GameViewController.swift */,
 				B169167322565B4E001F129D /* Main.storyboard */,
 				B169167622565B4F001F129D /* Assets.xcassets */,
@@ -130,6 +136,7 @@
 			files = (
 				B169167522565B4E001F129D /* Main.storyboard in Resources */,
 				B169167722565B4F001F129D /* Assets.xcassets in Resources */,
+				0F7BD0CC247D0D6100D56E34 /* Sounds in Resources */,
 				B169167A22565B4F001F129D /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F7BD0CF247D101900D56E34 /* GameOverScene.swift in Sources */,
 				B169167022565B4E001F129D /* GameScene.swift in Sources */,
 				B169167222565B4E001F129D /* GameViewController.swift in Sources */,
 				B169166A22565B4E001F129D /* AppDelegate.swift in Sources */,
