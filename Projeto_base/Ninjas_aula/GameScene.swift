@@ -7,7 +7,7 @@ struct PhysicsCategory{
     static let all          : UInt32 = UInt32.max
     static let monster      : UInt32 = 0b1          // representaçao binaria do numero 1
     static let projectile   : UInt32 = 0b10         // representaçao binaria do numero 2
-    static let player       : UInt32 = 0b11         // representaçao binaria do numero 3
+    static let player       : UInt32 = 0b100        // representaçao binaria do numero 4
 }
 
 
