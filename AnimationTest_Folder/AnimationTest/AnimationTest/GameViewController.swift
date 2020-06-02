@@ -26,7 +26,7 @@ class GameViewController: UIViewController {
             view.showsNodeCount = true
             
             // apresenta a cena
-            view.presentScene(scene);
+            view.presentScene(scene)
         }
     }
 
